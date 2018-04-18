@@ -1,0 +1,28 @@
+{
+  "name": "colorado-mountain-passes",
+  "version": "1.0.0",
+  "description": "mountain passes in colorado",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "dev": "nodemon"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/soundmedicine/colorado-mountain-passes.git"
+  },
+  "author": "Roberto Santos",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/soundmedicine/colorado-mountain-passes/issues"
+  },
+  "homepage": "https://github.com/soundmedicine/colorado-mountain-passes#readme",
+  "dependencies": {
+    "dotenv": "^5.0.1",
+    "express": "^4.16.3",
+    "knex": "^0.14.6",
+    "nodemon": "^1.17.3",
+    "pg": "^7.4.1"
+  }
+}
